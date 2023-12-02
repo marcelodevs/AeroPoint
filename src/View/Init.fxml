@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="archorpane" fx:id="archorpane" prefHeight="318.0" prefWidth="740.0" styleClass="mainFxmlClass" stylesheets="@../javafxapplication3/init.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Model.InitController">
+   <children>
+      <Pane prefHeight="377.0" prefWidth="740.0">
+         <children>
+            <ImageView fitHeight="393.0" fitWidth="384.0" layoutX="358.0" layoutY="-13.0" pickOnBounds="true" style="-fx-: 22;">
+               <image>
+                  <Image url="@../javafxapplication3/fundo-init.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="81.0" layoutY="90.0" prefHeight="43.0" prefWidth="228.0" text="Monitoramento de passagens" textFill="#000064">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Button id="btnstart" fx:id="btnstart" layoutX="92.0" layoutY="265.0" mnemonicParsing="false" onAction="#initi" prefHeight="43.0" prefWidth="206.0" stylesheets="@../javafxapplication3/init.css" text="Começar" textFill="WHITE" />
+            <Label layoutX="65.0" layoutY="31.0" prefHeight="73.0" prefWidth="260.0" text="AeroPoint.com" textFill="#000064">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <TextArea id="inputNomeUser" fx:id="inputNomeUser" layoutX="95.0" layoutY="148.0" prefHeight="27.0" prefWidth="200.0" promptText="Usuário" stylesheets="@../javafxapplication3/init.css">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></TextArea>
+            <TextArea id="inputSenhaUser" fx:id="inputSenhaUser" layoutX="95.0" layoutY="192.0" prefHeight="34.0" prefWidth="200.0" promptText="Senha">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></TextArea>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

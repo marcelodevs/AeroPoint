@@ -1,0 +1,40 @@
+#AnchorPane {
+    -fx-height: 377;
+}
+
+#CadastroCliente {
+    -fx-background-color: #8cb8ff;
+}
+
+#inputNomeCli,
+#inputPassaporteCli,
+#inputRGCli,
+#inputCPFCli,
+#inputPagamentoChekin,
+#inputDestinoChekin,
+#inputPassaporteChekin {
+    -fx-text-fill: black;
+    -fx-padding: 12px;
+}
+
+#btncadastro,
+#btnchekin {
+    -fx-background-color: #000064;
+    -fx-text-fill: #fff;
+    -fx-background-radius: 20px;
+    -fx-padding: 12px;
+    -fx-font-size: 16px;
+    -fx-opacity: .85;
+}
+
+#btncadastro:hover {
+    -fx-opacity: 1;
+}
+
+#tab {
+    -fx-background-color: #3985ff;
+}
+
+#chekin {
+    -fx-background-color: #3985ff;
+}

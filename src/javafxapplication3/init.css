@@ -1,0 +1,17 @@
+#archorpane {
+    -fx-background-color: rgb(140, 184, 255);
+}
+
+#btnstart {
+    -fx-background-color: #000064;
+    -fx-background-radius: 20px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 20px;
+    -fx-text-align: center;
+}
+
+#inputNomeUser,
+#inputSenhaUser {
+    -fx-border-color: dodgerblue;
+    -fx-outline: none;
+}

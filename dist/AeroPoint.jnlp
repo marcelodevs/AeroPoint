@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AeroPoint.jnlp">
+  <information>
+    <title>AeroPoint</title>
+    <vendor>User</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AeroPoint.jar" size="324572" download="eager" />
+    <jar href="lib\postgresql-42.5.4.jar" size="1049651" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="Model.InitController"  name="AeroPoint" />
+  <update check="always"/>
+</jnlp>
